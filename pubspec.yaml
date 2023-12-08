@@ -1,0 +1,56 @@
+name: crypto_app
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  cached_network_image: ^3.3.0
+  toast: ^0.3.0
+  google_fonts: ^6.1.0
+  overlay_support: ^2.1.0
+  flutter_bloc: ^8.1.3
+  dio: ^5.4.0
+  logger: ^2.0.2+1
+  hive_flutter: ^1.1.0
+  flutter_svg: ^2.0.9
+  provider: ^6.1.1
+  intl: ^0.18.1
+  bot_toast: ^4.1.3
+  flutter_iconly: ^1.0.2
+  fl_chart: ^0.65.0
+  equatable: ^2.0.5
+  cryptofont: ^1.0.2+1
+  web_socket_channel: ^2.4.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/svgs/
+    - assets/images/pngs/
+    - assets/images/jpgs/
+    - assets/fonts/
+
+  fonts:
+    - family: SF Pro Medium
+      fonts:
+        - asset: assets/fonts/SF-Pro-Text-Medium.otf
+
+    - family: SF Pro Regular
+      fonts:
+        - asset: assets/fonts/SF-Pro-Text-Regular.otf
