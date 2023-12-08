@@ -76,8 +76,10 @@ class CoinListTile extends StatelessWidget {
             Expanded(
               child: SizedBox(
                 height: 32,
-                child: CoinTimeSeriesGraph(
-                  color: (data.sign!) > 0 ? Palette.leaf : Palette.infraRed,
+                child: IgnorePointer(
+                  child: CoinTimeSeriesGraph(
+                    color: (data.sign!) > 0 ? Palette.leaf : Palette.infraRed,
+                  ),
                 ),
               ),
             ),

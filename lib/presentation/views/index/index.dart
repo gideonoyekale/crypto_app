@@ -53,8 +53,10 @@ class _AppIndexState extends State<AppIndex> {
                           ),
                           ClipRRect(
                             child: BackdropFilter(
-                              filter:
-                                  ImageFilter.blur(sigmaX: 10.0, sigmaY: 10.0),
+                              filter: ImageFilter.blur(
+                                sigmaX: 10.0,
+                                sigmaY: 10.0,
+                              ),
                               child: AppRectangle(
                                 // padding: const EdgeInsets.all(16),
                                 height: context.height(0.1),
